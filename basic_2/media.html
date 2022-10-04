@@ -1,0 +1,41 @@
+<div class="box">
+    ...
+</div>
+
+
+<style>
+.box{
+    background-color: red;
+    display: inline;
+    /* height: 50vh; */
+}
+/* if screen size is less than */
+/*       0   -     600 px */
+/* min-width  max-width   */
+@media only screen and (max-width: 600px) {
+  .box {
+    background-color: lightblue;
+  }
+}
+/* Tablet */
+/*       600   -     800 px */
+/* min-width  max-width   */
+@media only screen and (max-width: 800px) {
+  .box {
+    background-color: blue;
+  }
+}
+.box:hover{
+    background-color: pink;
+}
+
+.box:after{
+    content:"sdsd";
+}
+
+.box:before{
+    content:"imyour father";
+}
+
+
+</style>

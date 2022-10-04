@@ -1,0 +1,59 @@
+*{
+    font-family: sans-serif;   
+}
+
+body{
+    background-color:#A09AE2;
+    color: #64676F;
+}
+
+.heading{
+    font-size: 48px;
+    color: #5463DB;
+    font-weight: 600;
+}
+.card{
+
+background-color:white;
+text-align: center;
+width: 400px;
+
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+
+border-radius: 20px;
+
+padding-top: 20px;
+padding-bottom: 20px;
+
+box-shadow: 4px 4px rgba(0,0,0,0.25);
+}
+
+.sub-heading{
+    font-size: 28px;
+}
+
+.left-align{
+    text-align: left;
+}
+
+.extra-padding{
+    padding:40px;
+}
+
+
+.topic-heading{
+    font-size: 20px;
+    color: #5463DB;
+    font-weight: 600;
+}
+
+button{
+    background-color: #5463DB;
+    color:white;
+    padding: 12px;
+    border:0px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px rgba(0, 0,0, .25);
+}
